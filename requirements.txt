@@ -1,0 +1,9 @@
+# Engines + selftest: standard library only (tkinter, xml, re).
+# The UI needs these packages:
+#   - arabic-reshaper / python-bidi: Persian RTL rendering (Tk has no
+#     bidi/shaping engine of its own).
+#   - pillow: the hand-drawn chrome layer (rounded cards, pills, chips,
+#     glows). Cached anti-aliased images blitted onto tk.Canvas.
+arabic-reshaper
+python-bidi
+pillow

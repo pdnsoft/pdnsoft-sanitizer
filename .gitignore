@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Outputs the app writes next to configs (may contain plaintext secrets)
+sanitized-*
+sanitize-mapping.json
+sanitize-mapping.csv
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
